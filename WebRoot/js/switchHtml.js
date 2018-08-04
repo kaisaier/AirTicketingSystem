@@ -15,7 +15,7 @@ function my_hidden1() {
         "endplace": $("#citySelect1").attr("id")
     };
     //传值给post
-    $.post("/AirTicketingSystem/servlet/UnityAPIServlet",order);
+    $.post("http://10.8.166.249:8080/AirTicketingSystem/servlet/UnityAPIServlet",order);
     
     //设置首页不可见 
     
