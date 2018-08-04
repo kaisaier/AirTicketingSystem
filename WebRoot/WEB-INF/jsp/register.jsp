@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta charset="utf-8" />
-<title>民航售票系统</title>
+<title>某航空公司订票系统</title>
 
 <meta name="description" content="User login page" />
 <meta name="viewport"
@@ -57,7 +57,7 @@
 							<!--<img src="${pageContext.request.contextPath }/assets/img/ht2.png" class="img-responsive">-->
 							<h1>
 								<i class="ace-icon fa fa-leaf green"></i> <span class="white"
-									id="id-text2">民航售票系统</span>
+									id="id-text2">某航空公司订票系统</span>
 							</h1>
 						</div>
 
