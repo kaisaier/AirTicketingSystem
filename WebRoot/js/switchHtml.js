@@ -35,6 +35,13 @@ function switch_html() {
 
 
 }
+function show_result() {
+	
+	
+	$("#queryresult").css("display", "block");
+	 $("#queryorder").css("display", "none");
+}
+
 function my_hidden() {
     //设置首页不可见 
     $("#prime").css("display", "none");

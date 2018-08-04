@@ -50,10 +50,11 @@
     <div class="container">
         <div class="row" style="margin-left: 14%;margin-top: 11%;">
             <center>
-                <div class="input-field col l7 ">
+               <div id="queryorder"> 
+               <div class="input-field col l7 ">
                     <textarea id="textarea1" class="materialize-textarea" style="font-size: 18px; height: 27px; padding-bottom: 6px;" placeholder="身份证号"></textarea>
-                </div>
-                <div class="input-field col l2 waves-effect waves-light" onclick="switch_html()" style="    margin-top: 35px; background-color:#00bcd4; height:42px;color:white;border-radius: 4%;">
+                </div >
+                <div class="input-field col l2 waves-effect waves-light" onclick="show_result()" style="    margin-top: 35px; background-color:#00bcd4; height:42px;color:white;border-radius: 4%;">
                     <div class="container">
                         <div style="color:white;float:left;margin-top:7px;">
                             <i class="material-icons" style="color:white;transform: rotate(45deg);">airplanemode_active</i>
@@ -61,7 +62,8 @@
                         <div type="submit" style="float:left;margin-top:10px;margin-left:7px;">查询</div>
                     </div>
                 </div>
-                <div class="card-action grey lighten-5">
+                </div>
+                <div id="queryresult" class="card-action grey lighten-5" style="display: none;">
                     <div class="row ">
                         <div class="row valign" style="width:100%;margin-bottom: 0px;">
                             <div class="col l9 ">
