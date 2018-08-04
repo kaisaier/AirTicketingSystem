@@ -121,15 +121,27 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
                                         </div>
                                         <div class="card-action grey lighten-5">
                                             <div class="row ">
-                                                <div class="row valign" style="width:100%;margin-bottom: 0px;">
-                                                    <div class="col l9 ">
-                                                        <div class="cell1 col l3 ">cell1 </div>
-                                                        <div class="cell2 col l3">cell2</div>
-                                                        <div class="cell3 col l3">cell3</div>
-                                                    </div>
-                                                    <div class="col l3">价格</div>
-                                                    <!-- <div class="col s6">6列的宽度 (一半)</div> -->
-                                                </div>
+                                                 <div class="row valign" style="width:100%;margin-bottom: 0px;">
+                                        <div class="col l9 ">
+                                            <div class="cell1 col l3">
+                                                <span class="flightDate">9:00AM</span>
+                                                <br>
+                                                <span class="flightPlace">北京</span>
+                                            </div>
+                                            <div class="cell2 col l2 flightDate">WZ1869</div>
+                                            <div class="cell3 col l3 ">
+                                                <span class="flightDate">14:00PM</span>
+                                                <br>
+                                                <span class="flightPlace">上海</span>
+                                            </div>
+                                            <div class="cell2 col l3 flightDate">5个小时</div>
+                                        </div>
+                                        <div class="col l2 " style="margin-top: 14px;">
+                                            <span class="text-warning font-22">1299</span>
+                                        </div>
+                                        
+                                        <!-- <div class="col s6">6列的宽度 (一半)</div> -->
+                                    </div>
                                             </div>
                                         </div>
                                     </div>
@@ -142,15 +154,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
                                         <div class="card-action grey lighten-5">
                                             <div class="row ">
                                                 <div class="input-field col l4 s3">
-                                                    <textarea id="name" class="materialize-textarea" onchange=" add_person_message_into_cookie($(this).attr('id'))" style="padding-bottom: 10px;"></textarea>
+                                                    <textarea id="name" class="materialize-textarea" onchange=" add_person_message_into_cookie($(this).attr('id'))" style="padding-bottom: 10px;">王小明</textarea>
                                                     <label for="textarea1">姓名</label>
                                                 </div>
                                                 <div class="input-field col l4 s3">
-                                                    <textarea id="identity" class="materialize-textarea" onchange=" add_person_message_into_cookie($(this).attr('id'))" style="padding-bottom: 10px;"></textarea>
+                                                    <textarea id="identity" class="materialize-textarea" onchange=" add_person_message_into_cookie($(this).attr('id'))" style="padding-bottom: 10px;">123456</textarea>
                                                     <label for="textarea1">身份证号</label>
                                                 </div>
                                                 <div class="input-field col l4 s3">
-                                                    <textarea id="phone" class="materialize-textarea" onchange=" add_person_message_into_cookie($(this).attr('id'))" style="padding-bottom: 10px;"></textarea>
+                                                    <textarea id="phone" class="materialize-textarea" onchange=" add_person_message_into_cookie($(this).attr('id'))" style="padding-bottom: 10px;">123456</textarea>
                                                     <label for="textarea1">手机号</label>
                                                 </div>
                                             </div>
