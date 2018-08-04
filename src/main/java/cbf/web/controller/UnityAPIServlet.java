@@ -25,8 +25,8 @@ public class UnityAPIServlet extends HttpServlet {
 		//String name =new String(request.getParameter("name").getBytes("ISO8859-1"),"UTF-8");
 		//System.err.println("name="+name);
 		//System.err.println("key1:"+ new String(request.getParameter("key1").getBytes("ISO8859-1"),"UTF-8"));
-		System.err.println("citySelect:"+ new String(request.getParameter("startplace").getBytes("ISO8859-1"),"UTF-8"));
-		System.err.println("citySelect1:"+ new String(request.getParameter("endplace").getBytes("ISO8859-1"),"UTF-8"));
+		System.err.println("citySelect:"+ new String(request.getParameter("citySelect").getBytes("ISO8859-1"),"UTF-8"));
+		System.err.println("citySelect1:"+ new String(request.getParameter("citySelect1").getBytes("ISO8859-1"),"UTF-8"));
 		
 	}
 		
