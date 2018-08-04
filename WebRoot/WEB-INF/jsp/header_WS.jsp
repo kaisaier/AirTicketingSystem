@@ -97,6 +97,7 @@
 			</div>
 			<div class="navbar-header pull-right" role="navigation">
 				<ul class="nav ace-nav">
+				<li><a href="../">回到首页</a> </li>
 					<li class="light-blue" style="width: 170px;"><span
 						style="color: #fff;"><big>欢迎您,${sessionScope.user.name}${sessionScope.user.level==1?'(管理员)':'先生/女士'}</big></span>
 					</li>
