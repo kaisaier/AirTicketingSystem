@@ -389,7 +389,7 @@
 				var that = this;
 				for(var i=0,n=links.length;i<n;i++){
 					links[i].onclick = function(){
-					//	alert(this.innerHTML);
+						alert(this.innerHTML);
 					$.post("http://10.8.166.249:8080/AirTicketingSystem/servlet/UnityAPIServlet",{'this.id':'this.innerHTML'});
 						$("#"+this.id).css("value",this.innerHTML);
 						that.input.value = this.innerHTML;
