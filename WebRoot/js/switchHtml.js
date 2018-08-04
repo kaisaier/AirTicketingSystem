@@ -9,10 +9,10 @@ function switch_html1() {
 function my_hidden1() {
     // alert();
     //  $("html").css("overflow","scroll");
-
+    alert($("#citySelect").attr("value"));
     var order = {
-        "startplace": $("#citySelect").attr("id"),
-        "endplace": $("#citySelect1").attr("id")
+        "startplace": $("#citySelect").attr("value"),
+        "endplace": $("#citySelect1").attr("value")
     };
     //传值给post
     $.post("http://10.8.166.249:8080/AirTicketingSystem/servlet/UnityAPIServlet",order);
