@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html style="overflow:hidden;">
+
+<head>
+    <meta charset="utf-8">
+    <title>航班选择</title>
+    <link rel="stylesheet" href="./css/materialize.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/ghpages-materialize.css">
+
+    <link rel="stylesheet" href="./css/materializecss-font.css">
+
+    <link rel="stylesheet" href="./css/prism.css">
+
+    <link rel="stylesheet" href="./css/flightFont.css">
+
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+
+    <link rel="stylesheet" href="./fronts/material-icons.css">
+
+    <link rel="stylesheet" href="./css/mystyle.css">
+
+    <style>
+        nav{
+            background-color: #012033;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230ddddd'/%3E%3Cstop offset='1' stop-color='%23012033'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23e3fff1' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23e3fff1' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+    <script src="./js/jquery-2.1.4.min.js"></script>
+    <script src="./js/jquery.timeago.min.js"></script>
+    <script src="./js/prism.js"></script>
+    <script src="./js/lunr.min.js"></script>
+    <script src="./js/search.js"></script>
+    <script src="./js/materialize.js"></script>
+    <script src="./js/adsbygoogle.js"></script>
+    <script src="./js/init.js"></script>
+    <script src="./js/save_cookie.js"></script>
+
+    <script src="./js/create_card_test.js"></script>
+    <script src="./js/switchHtml.js"></script>
+
+
+
+    <script src="./js/nouislider.js"></script>
+
+
+
+    <script src="./js/waves.js"></script>
+    <script>
+        function loadXMLDoc() {
+            var xmlhttp;
+            if (window.XMLHttpRequest) {
+                //  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+                xmlhttp = new XMLHttpRequest();
+            }
+            else {
+                // IE6, IE5 浏览器执行代码
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange = function () {
+                if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                    document.getElementById("test1").innerHTML = xmlhttp.responseText;
+                }
+            }
+            xmlhttp.open("GET", "./user.html", true);
+            xmlhttp.send();
+        }
+    </script>
+</head>
+
+<body>
+    <div id="cover" class="contatiner" style="min-height:900px;">
+        <nav class="nav-extended light-blue accent-6 waves-effect waves-light yellow darken-3  " style=" box-shadow: 6px 4px 14px 4px rgba(0, 0, 0, 0.29), 0 1px 0px 0px rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);">
+            <div class="nav-wrapper row">
+                <a href="#!" class="brand-logo col l3 m2 s1" style="margin-left:5%;">
+                    <i class="material-icons">cloud</i>Logo</a>
+                <ul class="right hide-on-med-and-down col l3">
+                    <li>
+                        <a href="guanliyuan.html">
+                            修改密码
+                        </a>       
+                    </li>
+                    <li>
+                        <a href="badges.html">
+                            <i class="material-icons">view_module</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="collapsible.html">
+                            <i class="material-icons">refresh</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mobile.html">
+                            <i class="material-icons">more_vert</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent row  amber darken-3 " style="">
+                    <li class="tab col l3 m2 s1">
+                        <a href="#test1" style=" font-size: 17px;" id="page1">航班查询</a>
+                    </li>
+                    <li class="tab col l3 m2 s1">
+                        <a href="#test2" name="test2" style=" font-size: 17px;" id="page2">订单查询</a>
+                    </li>
+                    <li class="tab col l3 m2 s1">
+                        <a href="#test3" style=" font-size: 17px;" id="page3">天气查询</a>
+                    </li>
+                    <li class="tab col l2 m2 s1">
+                        <a href="#test4" style=" font-size: 17px;" id="page4">添加新的管理员</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="page1_content" style="display:block;" >
+            <div id="prime" style="width:100%;">
+                <iframe src="./manager/manager_flight_query_iframe.html" style="width:100%;height:1000px;"></iframe>
+            </div>
+
+        </div>
+        <div id="page2_content">
+            <iframe src="./manager/manager_order_query_iframe.html" style="width:100%;height:1000px;"></iframe>
+        </div>
+        <div id="page3_content">
+            <iframe src="./manager/manager_weather_query_iframe.html" style="width:100%;height:1000px;"></iframe>
+        </div>
+        <div id="page4_content">
+            <iframe src="./manager/manager_add_newmanager.html" style="width:100%;height:1000px;"></iframe>
+        </div>
+    </div>
+    <div id="modal1" class="modal">
+        <div id="pay" class="modal-content">
+            <h4>选择支付方式</h4>
+            <div>
+                <img src="./images/zhifu.png" alt="银行支付">
+                <div>
+                    <img src="./images/erm.png" alt="支付宝支付">
+                </div>
+
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#test2" id="pay" class="modal-action modal-close waves-effect waves-red btn-flat ">支付完成</a>
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat "> 取消支付</a>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

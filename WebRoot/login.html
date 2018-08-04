@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="WT.si_n" content="管理员登录" />
+    <meta name="WT.si_p" content="登录" />
+    <link rel="stylesheet" type="text/css" href="./css/newlogin.css">
+    <link type="text/css" rel="stylesheet" href="./css/login.css" />
+    <script src="./js/jquery-2.1.4.min.js"></script>
+    <script src="./js/switchLogin.js"></script>
+    
+</head>
+
+    
+
+<body>
+    <!-- 头部  -->
+    <!-- <div class="lg-header">
+		<a class="logo" href="//www.csair.com/cn/index.shtml"></a>
+	</div> -->
+    <!-- /头部end -->
+    <!-- 中间内容 -->
+    <div class="middle-content">
+        <div cz-rel="cz_1464314390965" id="loginbgshow" style="position: absolute;">
+            <img src="./images/0bc1acbe211582115e505c877f4626dc.jpg">
+        </div>
+        <div class="wrap">
+            <div id="ad-content"  style="top:60px;">
+                <div id="loginBox_page" class="login" style="top:0px;">
+                    <div class="login-box all ">
+                        <ul class="tab-title">
+                            <li class="left member-login " onclick="current2()" data-boxname="memberBox">管理员登录</li>
+                            <li class="left psw-login current" onclick="current1()" data-boxname="dynamicPswBox">动态密码登录</li>
+                        </ul>
+                        <div class="lg-tabcontent hide" id="memberBox" >
+                            <form class="form-box" id="memberLogin" >
+                                <div class="lg-unit">
+                                    <input type="text" autocomplete="off" maxlength="30" data-placeholder="手机号/邮箱/会员号/证件号" value="" class="ipt-valid greyfont"
+                                        name="userId" id="userId">
+                                    <div class="help-txt"></div>
+                                </div>
+                                <div class="lg-unit">
+                                    <input type="text" class="greyfont place-hoder" autocomplete="off" name="passWordPH" id="passWordPH" value="密码">
+                                    <input type="password" class="ipt-valid hide" maxlength="10" autocomplete="off" name="passWord" value="" id="passWord">
+                                    <div class="help-txt"></div>
+                                </div>
+                                <div class="forget-psw">
+                                    <a href="#" target="_blank" class="btn" id="mem_forgetPsw">忘记密码？</a>
+                                </div>
+                                <div class="lg-msg"></div>
+                                <div class="lg-protocol">
+                                    <label for="loginProtocol">
+                                        <input type="checkbox" id="loginProtocol" name="loginProtocol">已阅读并同意
+                                        <a href="http://www.csair.com/cn/tourguide/booking/orders/static/yinsitiaokuan/index.shtml" target="_blank">《隐私政策》</a>
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn long-btn login-btn" otype="button" otitle="预订流程-航班选择-会员登录" id="mem_btn_login"><a href="manager_index.html" style="color:white;">登 录</a></button>
+                            </form>
+                        </div>
+                        <div class="lg-tabcontent" id="dynamicPswBox">
+                            <form class="form-box" id="dynamicPswLogin" autocomplete="off">
+                                <div class="lg-unit">
+                                    <input type="text" autocomplete="off" maxlength="30" onclick="changeBtn()" data-placeholder="国内11位手机号或邮箱" data-email="false" value="" class="ipt-valid ipt-disBtn greyfont"
+                                        name="userId" id="eId">
+                                    <div class="help-txt"></div>
+                                </div>
+                                <div class="lg-unit">
+                                    <input type="text" class="short ipt-valid greyfont" autocomplete="off" onclick="changeBtn2()" data-placeholder="请输入动态密码" name="vcode" id="vcode">
+                                    <div class="btn short-btn disabled" id="dyn_btn_psw">获取动态密码</div>
+                                    <div class="help-txt"></div>
+                                </div>
+                                <div class="lg-msg"></div>
+                                <div class="lg-protocol">
+                                    <label for="loginProtocol1">
+                                        <input type="checkbox" id="loginProtocol1" name="loginProtocol">已阅读并同意
+                                        <a href="http://www.csair.com/cn/tourguide/booking/orders/static/yinsitiaokuan/index.shtml" target="_blank">《隐私政策》</a>
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn long-btn login-btn disabled"  id="dyn_btn_login" otype="button"  otitle="预订流程-航班选择-动态密码登录"><a href="manager_index.html" style="color:white;">登 录</a></button>
+                            </form>
+                        </div>
+                        <div class="exAccount" id="exAccount">
+                            <div>合作账户登录：</div>
+                            <div class="qqlogin disabled">QQ</div>
+                            <div class="weixinlogin disabled">weixin</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+</body>
+
+</html>

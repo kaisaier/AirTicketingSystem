@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html style="overflow:scroll;">
+
+<head>
+    <meta charset="utf-8">
+    <title>航班选择</title>
+    <link rel="stylesheet" href="../css/materialize.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/ghpages-materialize.css">
+
+    <link rel="stylesheet" href="../css/materializecss-font.css">
+
+    <link rel="stylesheet" href="../css/prism.css">
+
+    <link rel="stylesheet" href="../css/flightFont.css">
+
+    <link rel="stylesheet" href="../fonts/stylesheet.css">
+
+    <link rel="stylesheet" href="../fronts/material-icons.css">
+
+    <link rel="stylesheet" href="../css/mystyle.css">
+
+
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../js/jquery.timeago.min.js"></script>
+    <script src="../js/prism.js"></script>
+    <script src="../js/lunr.min.js"></script>
+    <script src="../js/search.js"></script>
+    <script src="../js/materialize.js"></script>
+    <script src="../js/adsbygoogle.js"></script>
+    <script src="../js/init.js"></script>
+    <script src="../js/save_cookie.js"></script>
+
+    <script src="../js/create_card_test.js"></script>
+    <script src="../js/switchHtml.js"></script>
+
+
+
+    <script src="../js/nouislider.js"></script>
+
+
+
+    <script src="../js/waves.js"></script>
+
+</head>
+
+<body>
+
+    <div style="background-image:url(&quot;../images/cover_bg_3.jpg&quot;); background-position: 0px -47.7px;height:1000px;">
+        <div class="col l12 s12 m5">
+            <div class="card-panel teal wrapper  " style="margin:auto;margin-top:3px;width:90%; background-color:#bdbdbd !important; box-shadow: 9px 8px 20px 0px rgba(0, 0, 0, 0.35), 0 1px 5px 0 rgba(0, 0, 0, 0.21), 0 3px 1px -2px rgba(0, 0, 0, 0.2);">
+                <div id="test2html">
+                    <div class="container">
+                        <div class="user_message">
+                            <div id="parentpoint">
+                                <div class="row">
+                                    <div class="col s12 m6" style="width: 100%;">
+                                        <div class="card " style="background-color:#01579B;  box-shadow:0px 2px 16px 3px rgba(0, 0, 0, 0.19), 5px 3px 6px 3px rgba(0, 0, 0, 0.12), 0 0px 20px 1px rgba(0, 0, 0, 0.2);">
+                                            <div class="card-content white-text valign" style="height:60px; padding: 8px; padding-left: 20px;">
+                                                <span class="card-title valign " style="margin-top:5px;">乘机人信息</span>
+                                                <a id="add" class="btn-floating halfway-fab waves-effect waves-light " style=" width:45px;height:45px; background-color: #62EEEE;     left:92%;box-shadow:9px 8px 20px 0px rgba(0, 0, 0, 0.35), 0 1px 5px 0 rgba(0, 0, 0, 0.21), 0 3px 1px -2px rgba(0, 0, 0, 0.2);"
+                                                    onclick="add()">
+                                                    <i class="material-icons" style="color:black;font-size:30px;margin-top:2px;">add</i>
+                                                </a>
+                                            </div>
+                                            <div class="card-action grey lighten-5">
+                                                <div class="row ">
+                                                    <div class="input-field col l4 s3">
+                                                        <textarea id="name" class="materialize-textarea" onchange=" add_person_message_into_cookie($(this).attr('id'))" style="padding-bottom: 10px;"></textarea>
+                                                        <label for="textarea1">姓名</label>
+                                                    </div>
+                                                    <div class="input-field col l4 s3">
+                                                        <textarea id="identity" class="materialize-textarea" onchange=" add_person_message_into_cookie($(this).attr('id'))" style="padding-bottom: 10px;"></textarea>
+                                                        <label for="textarea1">身份证号</label>
+                                                    </div>
+                                                    <div class="input-field col l4 s3">
+                                                        <textarea id="phone" class="materialize-textarea" onchange=" add_person_message_into_cookie($(this).attr('id'))" style="padding-bottom: 10px;"></textarea>
+                                                        <label for="textarea1">手机号</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buttton" style="margin-top: 5%;">
+                                <button class="btn waves-effect waves-light " style="width: 140px;left: 34%;height:40px;" name="action">上一步
+                                    <i class="material-icons left " style="transform: rotate(180deg);">send</i>
+                                </button>
+                                <button class="btn waves-effect waves-light " onclick="switch_html2()" style="width: 140px;left: 41%;height:40px;" type="submit"
+                                    name="action">下一步
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

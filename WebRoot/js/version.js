@@ -1,0 +1,1 @@
+window.MOD_VERSION="1.21.02";window.INI_CFG={};

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>测试接口</title>
+</head>
+<body>
+<script src="js/jquery-2.1.4.min.js"></script>
+    <input type="button" value="zzzz" onclick="qw()">
+    <script>
+    function qw(){
+    	 alert();
+        var params = {
+        "name":"zxc" ,
+        "sex":"123" ,
+        "time": "zxcc",
+    };
+      
+        $.post("/AirTicketingSystem/servlet/UnityAPIServlet", {'key1':"abc", 'key2':"xc"});
+
+    }
+    </script>
+</body>
+</html>

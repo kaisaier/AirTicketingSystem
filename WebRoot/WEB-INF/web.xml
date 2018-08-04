@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>AirTicketingSystem</display-name>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LoginUIServlet</servlet-name>
+		<servlet-class>cbf.web.UI.LoginUIServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserIndexUIServlet</servlet-name>
+		<servlet-class>cbf.web.UI.UserIndexUIServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>cbf.web.controller.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>MainUIServlet</servlet-name>
+		<servlet-class>cbf.web.UI.MainUIServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LoginOutUIServlet</servlet-name>
+		<servlet-class>cbf.web.UI.LoginOutUIServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AirInfoChaKanServlet</servlet-name>
+		<servlet-class>cbf.web.controller.AirInfoChaKanServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AirInfoModifyUIServlet</servlet-name>
+		<servlet-class>cbf.web.UI.AirInfoModifyUIServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AirInfoModifyServlet</servlet-name>
+		<servlet-class>cbf.web.controller.AirInfoModifyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AirInfoDeleteServlet</servlet-name>
+		<servlet-class>cbf.web.controller.AirInfoDeleteServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AddNewAirInfoUIServlet</servlet-name>
+		<servlet-class>cbf.web.UI.AddNewAirInfoUIServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AddNewAirInfoServlet</servlet-name>
+		<servlet-class>cbf.web.controller.AddNewAirInfoServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserDataUIListServlet</servlet-name>
+		<servlet-class>cbf.web.UI.UserDataUIListServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserChaKanServlet</servlet-name>
+		<servlet-class>cbf.web.controller.UserChaKanServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserModifyUIServlet</servlet-name>
+		<servlet-class>cbf.web.UI.UserModifyUIServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserModifyServlet</servlet-name>
+		<servlet-class>cbf.web.controller.UserModifyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserDataAddUIServlet</servlet-name>
+		<servlet-class>cbf.web.UI.UserDataAddUIServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserDataAddServlet</servlet-name>
+		<servlet-class>cbf.web.controller.UserDataAddServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>PersonDataUIservlet</servlet-name>
+		<servlet-class>cbf.web.UI.PersonDataUIservlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>PersonModifyServlet</servlet-name>
+		<servlet-class>cbf.web.controller.PersonModifyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>PersonPwdModifyServlet</servlet-name>
+		<servlet-class>cbf.web.controller.PersonPwdModifyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>RegisterUIServlet</servlet-name>
+		<servlet-class>cbf.web.UI.RegisterUIServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>RegisterServlet</servlet-name>
+		<servlet-class>cbf.web.controller.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UnityAPIServlet</servlet-name>
+		<servlet-class>cbf.web.controller.UnityAPIServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Main_WS_UIServlet</servlet-name>
+		<servlet-class>cbf.web.UI.Main_WS_UIServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AirInfoFuKuanUIServlet</servlet-name>
+		<servlet-class>cbf.web.UI.AirInfoFuKuanUIServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AirInfoFuKuanServlet</servlet-name>
+		<servlet-class>cbf.web.controller.AirInfoFuKuanServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>OrderListUIServlet</servlet-name>
+		<servlet-class>cbf.web.UI.OrderListUIServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>OrderChakanServlet</servlet-name>
+		<servlet-class>cbf.web.controller.OrderChakanServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>OrderDeleteServlet</servlet-name>
+		<servlet-class>cbf.web.controller.OrderDeleteServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>OrderAirAllUIServlet</servlet-name>
+		<servlet-class>cbf.web.UI.OrderAirAllUIServlet</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>LoginUIServlet</servlet-name>
+		<url-pattern>/servlet/LoginUIServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserIndexUIServlet</servlet-name>
+		<url-pattern>/servlet/UserIndexUIServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/servlet/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MainUIServlet</servlet-name>
+		<url-pattern>/servlet/MainUIServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginOutUIServlet</servlet-name>
+		<url-pattern>/servlet/LoginOutUIServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AirInfoChaKanServlet</servlet-name>
+		<url-pattern>/servlet/AirInfoChaKanServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AirInfoModifyServlet</servlet-name>
+		<url-pattern>/servlet/AirInfoModifyServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AirInfoModifyUIServlet</servlet-name>
+		<url-pattern>/servlet/AirInfoModifyUIServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AirInfoDeleteServlet</servlet-name>
+		<url-pattern>/servlet/AirInfoDeleteServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddNewAirInfoUIServlet</servlet-name>
+		<url-pattern>/servlet/AddNewAirInfoUIServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddNewAirInfoServlet</servlet-name>
+		<url-pattern>/servlet/AddNewAirInfoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserDataUIListServlet</servlet-name>
+		<url-pattern>/servlet/UserDataUIListServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserChaKanServlet</servlet-name>
+		<url-pattern>/servlet/UserChaKanServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserModifyUIServlet</servlet-name>
+		<url-pattern>/servlet/UserModifyUIServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserModifyServlet</servlet-name>
+		<url-pattern>/servlet/UserModifyServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserDataAddUIServlet</servlet-name>
+		<url-pattern>/servlet/UserDataAddUIServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserDataAddServlet</servlet-name>
+		<url-pattern>/servlet/UserDataAddServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PersonDataUIservlet</servlet-name>
+		<url-pattern>/servlet/PersonDataUIservlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PersonModifyServlet</servlet-name>
+		<url-pattern>/servlet/PersonModifyServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PersonPwdModifyServlet</servlet-name>
+		<url-pattern>/servlet/PersonPwdModifyServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RegisterUIServlet</servlet-name>
+		<url-pattern>/servlet/RegisterUIServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/servlet/RegisterServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UnityAPIServlet</servlet-name>
+		<url-pattern>/servlet/UnityAPIServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Main_WS_UIServlet</servlet-name>
+		<url-pattern>/servlet/Main_WS_UIServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AirInfoFuKuanUIServlet</servlet-name>
+		<url-pattern>/servlet/AirInfoFuKuanUIServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AirInfoFuKuanServlet</servlet-name>
+		<url-pattern>/servlet/AirInfoFuKuanServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>OrderListUIServlet</servlet-name>
+		<url-pattern>/servlet/OrderListUIServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>OrderChakanServlet</servlet-name>
+		<url-pattern>/servlet/OrderChakanServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>OrderDeleteServlet</servlet-name>
+		<url-pattern>/servlet/OrderDeleteServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>OrderAirAllUIServlet</servlet-name>
+		<url-pattern>/servlet/OrderAirAllUIServlet</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
