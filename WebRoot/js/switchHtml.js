@@ -16,7 +16,7 @@ function my_hidden1() {
     };
     //传值给post
     $.post("http://10.8.166.249:8080/AirTicketingSystem/servlet/UnityAPIServlet",order);
-    ///glhl
+  
     //设置首页不可见 
     
     $("#prime").css("display", "none");
