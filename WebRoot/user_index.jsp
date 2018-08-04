@@ -61,7 +61,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
                     <i class="material-icons">cloud</i>Logo</a>
                 <ul class="right hide-on-med-and-down col l3">
                     <li>
-                        <a href="login.html">
+                        <a href="servlet/LoginUIServlet">
                             登录
                         </a>
                     </li>
