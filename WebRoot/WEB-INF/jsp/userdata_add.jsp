@@ -107,7 +107,7 @@
 				style="margin-right: 20px;"> <img
 					src="${pageContext.request.contextPath }/assets/img/2.png"
 					style="width: 23px; margin-top: -3px; margin-right: 4px;">
-					课程设计
+					TOSIT
 			</span> 民航售票系统
 			</span>
 		</div>
